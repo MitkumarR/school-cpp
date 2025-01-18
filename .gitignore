@@ -1,0 +1,17 @@
+# Ignore vcpkg build artifacts
+vcpkg/
+
+# Include vcpkg.json to track dependencies
+!vcpkg.json
+
+# Ignore Visual Studio build output
+Debug/
+Release/
+*.exe
+*.dll
+*.obj
+*.pdb
+
+# Ignore Visual Studio temp files
+.vs/
+*.VC.db
