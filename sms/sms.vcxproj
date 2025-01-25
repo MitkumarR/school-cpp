@@ -163,12 +163,15 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\details.cpp" />
     <ClCompile Include="src\marks.cpp" />
+    <ClCompile Include="src\student.cpp" />
+    <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\attendance.h" />
     <ClInclude Include="include\details.h" />
     <ClInclude Include="include\entry.h" />
     <ClInclude Include="include\DBHandler.h" />
+    <ClInclude Include="include\utils.h" />
     <ClInclude Include="include\student.h" />
     <ClInclude Include="include\info.h" />
     <ClInclude Include="include\log.h" />

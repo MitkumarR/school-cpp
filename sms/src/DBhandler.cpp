@@ -1,4 +1,6 @@
+/*
 #include "../include/DBHandler.h"
+#include <map>
 
 DBHandler::DBHandler(const std::string& databaseName) : db(nullptr), dbName(databaseName) {
     if (sqlite3_open(dbName.c_str(), &db) != SQLITE_OK) {
@@ -35,3 +37,5 @@ bool DBHandler::executeSQL(const std::string & sql){
 std::string DBHandler::getErrorMessage() const {
     return sqlite3_errmsg(db);
 }
+
+*/

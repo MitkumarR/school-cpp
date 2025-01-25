@@ -3,11 +3,12 @@
 
 int main() {
 	
+	
 	DBHandler dbHandler("sms.db");
 
 	std::string createTableSQL = R"(
 		    CREATE TABLE Student (
-		    Reg_No INTEGER PRIMARY KEY,   
+		    Reg_No TEXT PRIMARY KEY,   
 		    F_name TEXT NOT NULL,         
 		    L_name TEXT NOT NULL,         
 		    Branch TEXT NOT NULL,         
@@ -35,7 +36,7 @@ int main() {
 			std::cout << "Invalid input.\n";
 			continue;
 		}
-		
+
 		if (ask == "y" || ask == "Y") break;
 		else if (ask == "n" || ask == "N") log();
 		else std::cout << "Invalid input. Please enter 'y' or 'n'.\n";

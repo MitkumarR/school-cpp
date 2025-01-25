@@ -3,7 +3,7 @@
 #include "../include/log.h"
 #include "../include/details.h"
 #include "../include/info.h"
-//#include "../include/entry.h"
+#include "../include/entry.h"
 #include "../include/marks.h"
 #include "../include/attendance.h"
 #include "../include/student.h"
@@ -44,13 +44,13 @@ menu:
 			break;	
 		case 2: studentInfo();
 			break;	
-		case 3: Student S;
+		case 3: studentEntry();
 			break;
 		case 4: enterMarks();
 			break;
 		case 5: enterAttendance();
 			break;
-
+	
 		default: 
 			std::cout << "Please select valid option ! ";
 			goto menu;
