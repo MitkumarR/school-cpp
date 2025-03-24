@@ -1,5 +1,5 @@
-#ifndef _MARKS_H
-#define _MARKS_H
+#ifndef _GRADES_H
+#define _GRADES_H
 
 void enterGrades();
 

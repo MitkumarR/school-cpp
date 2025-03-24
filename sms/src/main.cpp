@@ -41,18 +41,18 @@ int main() {
 		);
 	)";*/
 
-	//std::string sql = R"(
-	//	CREATE TABLE Exam (
-	//		Exam_Code TEXT PRIMARY KEY,        -- Primary Key for the exam
-	//		Date DATE NOT NULL,                -- Date of the exam
-	//		Grades TEXT NOT NULL,              -- Grade received (e.g., A, B, C, etc.)
-	//		Exam_Credits INTEGER NOT NULL,     -- Credits assigned for the exam
-	//		Course_code TEXT NOT NULL,         -- Foreign Key referencing the Course table
-	//		Reg_No TEXT NOT NULL,              -- Foreign Key referencing the Student table
-	//		FOREIGN KEY (Course_code) REFERENCES Course(Course_code), -- FK for Course
-	//		FOREIGN KEY (Reg_No) REFERENCES Student(Reg_No)           -- FK for Student
-	//	);
-	//)";
+	/*std::string sql = R"(
+		CREATE TABLE Exam (
+			Exam_Code TEXT PRIMARY KEY,        -- Primary Key for the exam
+			Date DATE NOT NULL,                -- Date of the exam
+			Grades TEXT NOT NULL,              -- Grade received (e.g., A, B, C, etc.)
+			Exam_Credits INTEGER NOT NULL,     -- Credits assigned for the exam
+			Course_code TEXT NOT NULL,         -- Foreign Key referencing the Course table
+			Reg_No TEXT NOT NULL,              -- Foreign Key referencing the Student table
+			FOREIGN KEY (Course_code) REFERENCES Course(Course_code), -- FK for Course
+			FOREIGN KEY (Reg_No) REFERENCES Student(Reg_No)           -- FK for Student
+		);
+	)";*/
 
 
 	/*std::string sql = R"(
@@ -75,8 +75,8 @@ int main() {
 		('CS015', 'Mobile App Development', 4, 5);
 	)";
 	*/
-	/*
-	if (!dbHandler.executeSQL(sql)) {
+	
+	/*if (!dbHandler.executeSQL(sql)) {
 		std::cerr << "Failed to create table. Error: " << dbHandler.getErrorMessage() << std::endl;
 	}
 	*/
