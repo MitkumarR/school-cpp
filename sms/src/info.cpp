@@ -128,7 +128,7 @@ void studentInfo()
     std::cout << "--------------------------\n";
     std::regex regNoPattern("^[UP]\\d{2}CS\\d{3}$");
     while (true) {
-        std::cout << "Enter Registration Number (e.g., U22CS070 or P22CS076): ";
+        std::cout << "Enter Registration Number (e.g., U22CSXXX): ";
         std::getline(std::cin, regNo);
         if (!std::regex_match(regNo, regNoPattern)) {
             std::cout << "Invalid format. Must be 'U' or 'P', 2 digits, 'CS', then 3 digits.\n";

@@ -32,7 +32,7 @@ void enterGrades()
     // Course Code (e.g., CS001)
     std::regex courseCodePattern("^CS\\d{3}$");
     while (true) {
-        std::cout << "Enter Course Code (e.g., CS001): ";
+        std::cout << "Enter Course Code (e.g., CSXXX): ";
         std::getline(std::cin, courseCode);
         if (!std::regex_match(courseCode, courseCodePattern)) {
             std::cout << "Invalid format. Must be 'CS' followed by 3 digits (e.g., CS001).\n";
