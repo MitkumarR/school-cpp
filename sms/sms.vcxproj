@@ -162,7 +162,7 @@
     <ClCompile Include="src\log.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\details.cpp" />
-    <ClCompile Include="src\marks.cpp" />
+    <ClCompile Include="src\grades.cpp" />
     <ClCompile Include="src\student.cpp" />
     <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
@@ -175,7 +175,7 @@
     <ClInclude Include="include\student.h" />
     <ClInclude Include="include\info.h" />
     <ClInclude Include="include\log.h" />
-    <ClInclude Include="include\marks.h" />
+    <ClInclude Include="include\grades.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

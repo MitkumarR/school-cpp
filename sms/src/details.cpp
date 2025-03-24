@@ -1,18 +1,19 @@
 #include "../include/details.h"
 #include "../include/student.h"
 #include "../include/utils.h"
+
+#include <limits>
 #include <regex>
 
 void studentDetails()
 {
     std::string regNo;
     std::regex regNoPattern("^U[0-9]{2}[A-Z]{2}[0-9]{3}$");
-    
 
     while (true) {
         std::cout << "Register No.: ";
         std::cin >> regNo;
-
+        std::regex regNoPattern("^U[0-9]{2}[A-Z]{2}[0-9]{3}$");
         // Check if input matches the pattern
         if (!std::regex_match(regNo, regNoPattern)) {
             std::cout << "Invalid register number. Format should be like 'U20CS001'.\n";

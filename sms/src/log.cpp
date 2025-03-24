@@ -4,7 +4,7 @@
 #include "../include/details.h"
 #include "../include/info.h"
 #include "../include/entry.h"
-#include "../include/marks.h"
+#include "../include/grades.h"
 #include "../include/attendance.h"
 #include "../include/student.h"
 
@@ -18,7 +18,7 @@ void log()
 	std::cout << "1. Show Student Details" << std::endl;
 	std::cout << "2. Show Student Information" << std::endl;
 	std::cout << "3. Student's Entry" << std::endl;
-	std::cout << "4. Enter Student's Marks" << std::endl;
+	std::cout << "4. Enter Student's Grades" << std::endl;
 	std::cout << "5. Enter Student's Attendance" << std::endl;
 
 menu:
@@ -46,7 +46,7 @@ menu:
 			break;	
 		case 3: studentEntry();
 			break;
-		case 4: enterMarks();
+		case 4: enterGrades();
 			break;
 		case 5: enterAttendance();
 			break;

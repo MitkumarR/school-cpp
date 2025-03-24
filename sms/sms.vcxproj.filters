@@ -30,7 +30,7 @@
     <ClCompile Include="src\entry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\marks.cpp">
+    <ClCompile Include="src\grades.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\attendance.cpp">
@@ -56,7 +56,7 @@
     <ClInclude Include="include\entry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\marks.h">
+    <ClInclude Include="include\grades.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\info.h">

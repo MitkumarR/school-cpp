@@ -1,7 +1,8 @@
 #include <iostream>
+
+
 #include <limits>
 #include <regex>
-
 #include "../include/entry.h"
 #include "../include/student.h"
 #include "../include/utils.h"
@@ -9,28 +10,15 @@
 // Helper function to clear invalid input
 
 
-bool isDigits(const std::string& str) {
-    for (char ch : str) {
-        if (!isdigit(ch)) {
-            return false;
-        }
-    }
-    return true;
-}
-
 void studentEntry() {
 
-    std::string regNo;
-    std::string fName;
-    std::string lName;
-    std::string branch;
-    int semester;
-    std::string email;
-    std::string moNo;
-    std::vector<int> date(3); // Date: {day, month, year}
-
     std::regex regNoPattern("^U[0-9]{2}[A-Z]{2}[0-9]{3}$");
+    
+    std::string regNo, fName, lName, branch, email, moNo;
+    int semester;
 
+    std::vector<int> date(3);
+    
     // Prompt and validate inputs
     std::cout << "Enter Student Details\n";
     std::cout << "-----------------------\n";

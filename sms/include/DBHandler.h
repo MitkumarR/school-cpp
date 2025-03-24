@@ -2,7 +2,7 @@
 #define _DBHANDLER_H
 
 #include <iostream>
-#include <sqlite3.h>
+#include "../include/sqlite3.h"
 #include <string>
 #include <map>
 
