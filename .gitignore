@@ -15,3 +15,6 @@ Release/
 # Ignore Visual Studio temp files
 .vs/
 *.VC.db
+
+
+include/sqlite3.h
